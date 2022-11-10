@@ -1,3 +1,13 @@
+# NAME                      :   Lucas Oeming
+# GROUP                     :   APCS
+# LAST MODIFIED             :   10/14/2022
+# PROBLEM ID                :   USACO - healthy holstein
+# DESCRIPTION               :   output minimum number of feeds needed to feed a cow
+#                           :   with vitamin deficiency
+# SOURCES/HELPERS           :   USACO
+# PEOPLE I HELPED           :   n/a
+# PEOPLE WHO HELPED ME      :   kenneth
+
 '''
 ID: basscla2
 LANG: PYTHON3 
