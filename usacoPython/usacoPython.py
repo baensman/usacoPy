@@ -13,13 +13,17 @@ ID: basscla1
 LANG: PYTHON3 
 TASK: zerosum
 '''
-
+N = 0
+def solve(chain, sum, depth):
+     
+     
 # python equivalent of java nextInt function, returns next integer in input file when called
 def nextInt():
     for line in open("zerosum.in", "r"):
          yield from (int(i) for i in line.split())
 
 def main():
+    global N
     # read in input data and declare vars
     infile = nextInt() 
     N = next(infile) 
