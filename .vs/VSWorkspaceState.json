@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\usacoPython",
+    "\\usacoPython\\solved"
   ],
-  "SelectedNode": "\\usacoPython.sln",
+  "SelectedNode": "\\usacoPython\\usacoPython.py",
   "PreviewInSolutionExplorer": false
 }

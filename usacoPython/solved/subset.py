@@ -33,6 +33,7 @@ def main():
     dp[1] = 1
     for i in range(2, N+1):
         dupe = dp[:]
+        print(dupe)
         for j in range(i):
             dp.insert(0, 0)
             dp.pop()
