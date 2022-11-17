@@ -14,8 +14,15 @@ LANG: PYTHON3
 TASK: zerosum
 '''
 N = 0
-def solve(chain, sum, depth):
+sols = []
+history = []
+def returnSolution():
      
+def solve(chain, sum, depth):
+     temp = sum + 10**chain * depth
+     solve(chain+1, sum+10**chain * depth, depth+1)
+     solve(0, sum+10**chain * depth, depth+1)
+     solve(0, sum-10**chain * depth, depth+1)
      
 # python equivalent of java nextInt function, returns next integer in input file when called
 def nextInt():
